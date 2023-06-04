@@ -1,0 +1,92 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "singularName": "order",
+    "pluralName": "orders",
+    "displayName": "Order",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "products": {
+      "type": "json"
+    },
+    "userName": {
+      "type": "string"
+    },
+    "stripeSessionId": {
+      "type": "string"
+    },
+    "billingLastName": {
+      "type": "string",
+      "required": true
+    },
+    "billingFirstName": {
+      "type": "string",
+      "required": true
+    },
+    "billingCountry": {
+      "type": "string",
+      "required": true
+    },
+    "billingstreet1": {
+      "type": "string",
+      "required": true
+    },
+    "billingStreet2": {
+      "type": "string",
+      "required": true
+    },
+    "billingCity": {
+      "type": "string",
+      "required": true
+    },
+    "billingState": {
+      "type": "string",
+      "required": true
+    },
+    "billingZipCode": {
+      "type": "string",
+      "required": true
+    },
+    "shippingFirstName": {
+      "type": "string",
+      "required": true
+    },
+    "shippingLastName": {
+      "type": "string",
+      "required": true
+    },
+    "shippingCountry": {
+      "type": "string",
+      "required": true
+    },
+    "shippingstreet1": {
+      "type": "string",
+      "required": true
+    },
+    "shippingStreet2": {
+      "type": "string",
+      "required": true
+    },
+    "shippingCity": {
+      "type": "string",
+      "required": true
+    },
+    "shippingState": {
+      "type": "string",
+      "required": true
+    },
+    "shippingZipCode": {
+      "type": "string",
+      "required": true
+    },
+    "uid": {
+      "type": "string"
+    }
+  }
+}
